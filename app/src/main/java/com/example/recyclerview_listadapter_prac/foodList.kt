@@ -1,6 +1,6 @@
 package com.example.recyclerview_listadapter_prac
 
-object FoodList{
+object FoodList {
     val foodList = arrayListOf(
         "피자", "스테이크", "파스타", "초밥", "치킨",
         "짜장면", "짬뽕", "탕수육", "김치찌개", "된장찌개",
