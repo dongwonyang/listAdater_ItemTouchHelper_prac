@@ -76,6 +76,16 @@ class ItemTouchCallback(
             }
             background.draw(c)
         }
+
+        getDefaultUIUtil().onDraw( //고정
+            c,
+            recyclerView,
+            itemView,
+            150f,
+            dY,
+            actionState,
+            isCurrentlyActive
+        )
     }
 
 }
